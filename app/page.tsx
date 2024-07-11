@@ -44,8 +44,8 @@ export default function Page() {
         setVideoMuted((prev) => ({ ...prev, [index]: false }));
 
         if (videoRefs.current[index]) {
-            videoRefs.current[index].muted = false;
-            videoRefs.current[index].controls = true;
+            videoRefs.current[index]!.muted = false;
+            videoRefs.current[index]!.controls = true;
         }
     };
 
@@ -55,14 +55,14 @@ export default function Page() {
         setVideoMuted((prev) => ({ ...prev, [index]: false }));
 
         if (videoRefs.current[index]) {
-            videoRefs.current[index].muted = false;
-            videoRefs.current[index].controls = true;
+            videoRefs.current[index]!.muted = false;
+            videoRefs.current[index]!.controls = true;
         }
     };
 
     const handleExitFullscreen = () => {
         if (fullscreenIndex !== null && videoRefs.current[fullscreenIndex]) {
-            videoRefs.current[fullscreenIndex].controls = false;
+            videoRefs.current[fullscreenIndex]!.controls = false;
         }
         setFullscreenIndex(null);
     };
