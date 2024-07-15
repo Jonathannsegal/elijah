@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import profilePic from '../../public/ElijahSegal.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 export default function Page() {
     const navItems = {
@@ -44,19 +44,19 @@ export default function Page() {
                     />
                 </div>
                 <div className="p-8 flex flex-col justify-center w-full md:w-1/2">
-                    <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Profession / Role</div>
+                    <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Student Filmmaker</div>
                     <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Elijah Segal</a>
-                    <p className="mt-2 text-gray-500">I scare children. I scare fish. I scare my sister and she tells me my head is big.</p>
-                    <p className="mt-2 text-gray-500">Give me a job or I will hunt you... this is your last and only warning. Now you may be saying when did I get my first warning... And that would be a good question... But you know, you know</p>
+                    <p className="mt-2 text-gray-500">Elijah Segal is a student Filmmaker located in Santa Monica, California. He has been following his passion for filmmaking, in all forms, since he was in middle school.</p>
+                    <p className="mt-2 text-gray-500">Now, at the age of 17, he has independently made 9 short films and worked on several more. He has taken many leadership roles in and outside of school as well.</p>
                     <div className="mt-4 flex space-x-2">
-                        <a href="#" className="text-gray-500 hover:text-black">
+                        <a href="https://www.instagram.com/elijammm/" className="text-gray-500 hover:text-black">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
-                        <a href="#" className="text-gray-500 hover:text-black">
+                        <a href="https://www.youtube.com/@ElijahSegal" className="text-gray-500 hover:text-black">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a href="#" className="text-gray-500 hover:text-black">
-                            <FontAwesomeIcon icon={faTwitter} />
+                        <a href="https://www.linkedin.com/in/elijah-segal-283525317/" className="text-gray-500 hover:text-black">
+                            <FontAwesomeIcon icon={faYoutube} />
                         </a>
                     </div>
                     <div className="mt-2 text-gray-500">
