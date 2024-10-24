@@ -17,10 +17,10 @@ export default function Page() {
     };
 
     const videoData = [
-        { src: "https://xcynaenntclbctlh.public.blob.vercel-storage.com/ElijahSegalReel-9CJxhMcdvbFgq1fsebJRTOHuHrMQ7V.mp4", title: "Elijah Segal", text: "Writer | Producer | Director | Editor" },
-        { src: "https://xcynaenntclbctlh.public.blob.vercel-storage.com/CameraObscura-7FsgpchugjPZHT4xVZ7vxFPcgUPc66.mp4", title: "Camera Obscura", text: "" },
-        { src: "https://xcynaenntclbctlh.public.blob.vercel-storage.com/FreeParking-qFef6tP3vtCHH9axEZDOy3o7vZHnxG.mp4", title: "Free Parking", text: "" },
-        { src: "https://xcynaenntclbctlh.public.blob.vercel-storage.com/PullingThrough-tFxVqSSHVeshYh4PARQSY6rB1o2ejl.mp4", title: "Pulling Through", text: "" },
+        { src: "/ElijahSegal.webm", title: "Elijah Segal", text: "Writer | Producer | Director | Editor" },
+        { src: "/CameraObscura.webm", title: "Camera Obscura", text: "" },
+        { src: "/FreeParking.webm", title: "Free Parking", text: "" },
+        { src: "/PullingThrough.webm", title: "Pulling Through", text: "" },
     ];
 
     useEffect(() => {
