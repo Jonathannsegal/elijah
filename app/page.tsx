@@ -88,7 +88,7 @@ export default function Page() {
             </div>
             {fullscreenIndex !== index && (
                 <div className={`absolute inset-0 flex flex-col items-center justify-center p-4 z-10 pointer-events-none`}>
-                    <h1 className="text-white text-[3em] sm:text-[4em] md:text-[5.5em] lg:text-[7em] xl:text-[9em]">{video.title}</h1>
+                    <h1 className="text-white text-[3em] sm:text-[4em] md:text-[5em] lg:text-[6em] xl:text-[8em]">{video.title}</h1>
                     <div className="text-center max-w-lg">
                         <p className="text-white text-xs md:text-xl">
                             {video.text}
