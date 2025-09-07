@@ -47,7 +47,7 @@ export default function Page() {
                     <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Student Filmmaker</div>
                     <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Elijah Segal</a>
                     <p className="mt-2 text-gray-500">Elijah Segal is a student Filmmaker located in Santa Monica, California. He has been following his passion for filmmaking, in all forms, since he was in middle school.</p>
-                    <p className="mt-2 text-gray-500">Now, at the age of 17, he has independently made 9 short films and worked on several more. He has taken many leadership roles in and outside of school as well.</p>
+                    <p className="mt-2 text-gray-500">Now, at the age of 18, he has independently made 9 short films and worked on several more. He has taken many leadership roles in and outside of school as well.</p>
                     <div className="mt-4 flex space-x-2">
                         <a href="https://www.instagram.com/elijammm/" className="text-gray-500 hover:text-black">
                             <FontAwesomeIcon icon={faInstagram} />
